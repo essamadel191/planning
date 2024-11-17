@@ -1,0 +1,12 @@
+D:\Projects\planning\core\bin\Debug\net8.0\Core.deps.json
+D:\Projects\planning\core\bin\Debug\net8.0\Core.dll
+D:\Projects\planning\core\bin\Debug\net8.0\Core.pdb
+D:\Projects\planning\core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\planning\core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\Projects\planning\core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\Projects\planning\core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\Projects\planning\core\obj\Debug\net8.0\Core.sourcelink.json
+D:\Projects\planning\core\obj\Debug\net8.0\Core.dll
+D:\Projects\planning\core\obj\Debug\net8.0\refint\Core.dll
+D:\Projects\planning\core\obj\Debug\net8.0\Core.pdb
+D:\Projects\planning\core\obj\Debug\net8.0\ref\Core.dll

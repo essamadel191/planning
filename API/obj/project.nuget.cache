@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ewwn7RCgiX4=",
+  "dgSpecHash": "Zto8mUNLlOo=",
   "success": true,
-  "projectFilePath": "D:\\projects\\planning\\API\\API.csproj",
+  "projectFilePath": "D:\\Projects\\planning\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\essam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\essam\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
