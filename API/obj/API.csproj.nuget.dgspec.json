@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\planning\\api\\API.csproj": {}
+    "D:\\Projects\\planning\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\planning\\api\\API.csproj": {
+    "D:\\Projects\\planning\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\planning\\api\\API.csproj",
+        "projectUniqueName": "D:\\Projects\\planning\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projects\\planning\\api\\API.csproj",
+        "projectPath": "D:\\Projects\\planning\\API\\API.csproj",
         "packagesPath": "C:\\Users\\essam\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\planning\\api\\obj\\",
+        "outputPath": "D:\\Projects\\planning\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,6 +198,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
