@@ -5,10 +5,6 @@ D:\Projects\planning\api\bin\Debug\net8.0\API.deps.json
 D:\Projects\planning\api\bin\Debug\net8.0\API.runtimeconfig.json
 D:\Projects\planning\api\bin\Debug\net8.0\API.dll
 D:\Projects\planning\api\bin\Debug\net8.0\API.pdb
-D:\Projects\planning\api\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\Projects\planning\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Projects\planning\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Projects\planning\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projects\planning\api\bin\Debug\net8.0\Core.dll
 D:\Projects\planning\api\bin\Debug\net8.0\Infrastructure.dll
 D:\Projects\planning\api\bin\Debug\net8.0\Infrastructure.pdb
@@ -18,7 +14,6 @@ D:\Projects\planning\api\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.edito
 D:\Projects\planning\api\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
 D:\Projects\planning\api\obj\Debug\net8.0\API.AssemblyInfo.cs
 D:\Projects\planning\api\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
-D:\Projects\planning\api\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\planning\api\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\planning\api\obj\Debug\net8.0\API.sourcelink.json
 D:\Projects\planning\api\obj\Debug\net8.0\staticwebassets.build.json
