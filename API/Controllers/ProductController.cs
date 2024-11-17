@@ -47,5 +47,40 @@ namespace API.Controllers
             return product;
         }
         
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> UpdateProduct(int id,Products product)
+        {
+            if (product.Id != id || !ProductExists(id)) 
+                return BadRequest("Connot Update this product");
+
+            // This tell the entity framework tracker that we're passing in here is 
+            // an entity effectivily abd has been modified
+            context.Entry(product).State = EntityState.Modified;
+            
+            await context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult> DeleteProduct(int id)
+        {
+            var product = await context.Products.FindAsync(id);
+
+            if (product == null) return NotFound("This Product of id : "+id+" is not found");
+
+            // This mean that dotnet is tracking this product
+            context.Products.Remove(product);
+
+            // Then Update the database 
+            await context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool ProductExists(int id)
+        {
+            return context.Products.Any(x => x.Id == id);
+        }
     }
 }
