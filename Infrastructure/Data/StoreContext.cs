@@ -7,7 +7,7 @@ namespace Infrastructure.Data;
 
 public class StoreContext(DbContextOptions options) : DbContext(options)
 {
-    public DbSet<Product> Products { get; set; }
+    public DbSet<Products> Products { get; set; }
 
     // To fix the problem in the migration
     /// <summary>

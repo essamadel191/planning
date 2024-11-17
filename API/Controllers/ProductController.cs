@@ -8,11 +8,11 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductsController : ControllerBase
     {
         private readonly StoreContext context;
 
-        public ProductController(StoreContext context)
+        public ProductsController(StoreContext context)
         {
             this.context = context;
         }
@@ -20,14 +20,14 @@ namespace API.Controllers
         // ActionResults Allow Us to return HTTP responses
         // IEnumerable Type of List of Type Prodcut
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<Products>>> GetProducts()
         {
             return await context.Products.ToListAsync();
         }
 
         // For Specific Product
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<Products>> GetProduct(int id)
         {
             var Product = await context.Products.FindAsync(id);
 
@@ -38,7 +38,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Product>> CreateProduct(Product product)
+        public async Task<ActionResult<Products>> CreateProduct(Products product)
         {
             context.Products.Add(product);
 

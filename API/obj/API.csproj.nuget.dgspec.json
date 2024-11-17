@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\planning\\API\\API.csproj": {}
+    "D:\\Projects\\planning\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\planning\\API\\API.csproj": {
+    "D:\\Projects\\planning\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\planning\\API\\API.csproj",
+        "projectUniqueName": "D:\\Projects\\planning\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projects\\planning\\API\\API.csproj",
+        "projectPath": "D:\\Projects\\planning\\api\\API.csproj",
         "packagesPath": "C:\\Users\\essam\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\planning\\API\\obj\\",
+        "outputPath": "D:\\Projects\\planning\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

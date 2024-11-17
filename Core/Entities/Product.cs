@@ -2,7 +2,7 @@ using System;
 
 namespace Core.Entities;
 
-public class Product : BaseEntity
+public class Products : BaseEntity
 {
     //Required Modifier for the property
     public required string Name { get; set; }
